@@ -10,9 +10,6 @@ internsct1 is a simple command-line utility designed for basic system-related ta
 - [Installation](#installation)
 - [Usage](#usage)
 - [Options](#options)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
