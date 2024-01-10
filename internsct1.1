@@ -1,0 +1,66 @@
+.\" Man page for internsct1
+.\" Contact <20bcs7303@cuchd.in> to correct errors or typos
+
+.TH INTERNSCT1 1 "January 2024" "1.6" "Internsct1 Manual"
+.SH NAME
+internsct1 \- a simple example command
+
+.SH SYNOPSIS
+.B internsct1
+[\-\-version | \-\-help | \fBcpu getinfo\fP | \fBmemory getinfo\fP | \fBuser create <username>\fP | \fBuser list [--sudo-only]\fP | \fBfile getinfo [options] <file-name>\fP]
+
+.SH DESCRIPTION
+This manual page documents the internsct1 command.
+
+.SH OPTIONS
+.TP
+.BR \-\-version
+Display version information.
+.TP
+.BR \-\-help
+Display this help message.
+.TP
+.BR cpu getinfo
+Display CPU information.
+.TP
+.BR memory getinfo
+Display memory information.
+.TP
+.BR user create <username>
+Create a new user with the given username.
+.TP
+.BR user list
+List all regular users.
+.TP
+.BR user list --sudo-only
+List users with sudo permissions.
+.TP
+.BR file getinfo [options] <file-name>
+Get information about a file.
+.TP
+.BR \-\-size, -s
+Print file size.
+.TP
+.BR \-\-permissions, -p
+Print file permissions.
+.TP
+.BR \-\-owner, -o
+Print file owner.
+.TP
+.BR \-\-last-modified, -m
+Print last modified timestamp.
+
+.SH EXAMPLES
+To run internsct1, simply type:
+.PP
+.B internsct1
+.PP
+To get information about a file, type:
+.PP
+.B internsct1 file getinfo [options] <file-name>
+
+.SH AUTHOR
+Satyam Kumar <20BCS7303@cuchd.in>
+
+.SH BUGS
+NOT KNOWN
